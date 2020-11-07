@@ -52,7 +52,7 @@ The codes can be found in `extract_features` and `sing_img_features` functions i
 Sliding window search was done using `sliding_win` function. This function requires `image`, `scale to search` and `overlap_window`. 
 The sliding starts from `X = 0` to last X i.e. `img.shape[1]`. `y` starts from half of the image `img.shape[0]/2` t0 `650` such that the bonnet of the car is avoided.
 
-Scale was kept to `64x64` and was not played with. Overlap ratio was experimented with and as the overlap ratio was increased false negatives were removed and better detection of cars was seen to be made by the model.
+Scale was kept to `64x64` and was not played with. Overlap ratio was experimented with and as the overlap ratio was increased false negatives were removed and better detection of cars was seen to be made by the model
 
 ![image](./For_report/slide_wind.JPG)
 
